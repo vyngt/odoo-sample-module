@@ -1,0 +1,6 @@
+<odoo>
+    <!-- Modify Group Name -->
+    <record id="tutorial.library_group_user" model="res.groups">
+        <field name="name">Librarian</field>
+    </record>
+</odoo>

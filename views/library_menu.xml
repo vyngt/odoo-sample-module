@@ -1,0 +1,8 @@
+<odoo>
+    <record id="action_tutorial_member" model="ir.actions.act_window">
+        <field name="name">Library Members</field>
+        <field name="res_model">tutorial.library.member</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem id="menu_tutorial_member" name="Members" parent="tutorial.tutorial_base_menu" action="action_tutorial_member"/>
+</odoo>

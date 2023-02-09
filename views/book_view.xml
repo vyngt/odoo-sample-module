@@ -1,0 +1,12 @@
+<odoo>
+    <record id="tutorial_view_form_book_extend" model="ir.ui.view">
+        <field name="name">Book: add Is Available? field</field>
+        <field name="model">tutorial.library.book</field>
+        <field name="inherit_id" ref="tutorial.tutorial_view_form_book" />
+        <field name="arch" type="xml">
+            <field name="isbn" position="after">
+                <field name="is_available" />
+            </field>
+        </field>
+    </record>
+</odoo>

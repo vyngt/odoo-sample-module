@@ -5,7 +5,7 @@
         Extending example
     """,
     "author": "My Company",
-    "website": "https://github.com/vyngt",
+    "website": "https://github.com/vyngt/odoo-sample-module",
     "category": "Services/Library",
     "version": "16.0.1.0.0",
     "depends": ["tutorial", "mail"],

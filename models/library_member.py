@@ -15,4 +15,6 @@ class Member(models.Model):
     card_number = fields.Char()
 
     # Delegation inherit
-    partner_id = fields.Many2one("res.partner", ondelete="cascade", required=True)
+    partner_id = fields.Many2one(
+        "res.partner", delegate=True, ondelete="cascade", required=True
+    )

@@ -4,7 +4,7 @@
     "description": """
         Extending example
     """,
-    "author": "My Company",
+    "author": "vyngt",
     "website": "https://github.com/vyngt/odoo-sample-module",
     "category": "Services/Library",
     "version": "16.0.1.0.0",
